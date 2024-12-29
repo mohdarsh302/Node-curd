@@ -1,0 +1,462 @@
+{
+	"info": {
+		"_postman_id": "0202c88b-72a3-4277-ab2a-e6a0acc86790",
+		"name": "node-student",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34892834"
+	},
+	"item": [
+		{
+			"name": "http://localhost:4001/api/students/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJqb2huNUBleGFtcGxlLmNvbSIsIm5hbWUiOiJKb2huIERvZSA1IiwiaWF0IjoxNzM0NzE2NDM5LCJleHAiOjE3MzQ3MjAwMzl9.7caF4Zz42bdckXPsNryFW_JQ2jU652EC1QCt5UQOFO4",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4001/api/students/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"students",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4001/api/students/get/14",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJqb2huNUBleGFtcGxlLmNvbSIsIm5hbWUiOiJKb2huIERvZSA1IiwiaWF0IjoxNzM0NzE2NDM5LCJleHAiOjE3MzQ3MjAwMzl9.7caF4Zz42bdckXPsNryFW_JQ2jU652EC1QCt5UQOFO4",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"John Doe 44\",\n    \"email\": \"john44@example.com\",\n    \"password\": \"123123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4001/api/students/get/14",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"students",
+						"get",
+						"14"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4001/api/students/put/14",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"John Doe 444\",\n    \"email\": \"john44@example.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4001/api/students/put/14",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"students",
+						"put",
+						"14"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4001/api/students/15",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"John Doe 155\",\n    \"email\": \"john55@example.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4001/api/students/15",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"students",
+						"15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4001/api/students/get-student-details",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:4001/api/students/get-student-details",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"students",
+						"get-student-details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4001/api/students/post-student-details",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n        \"name\": \"ayzal Doe 1\",\n        \"email\": \"ayzal@example.com\",\n        \"password\": \"12345\",\n        \"address\": \"test address-1\",\n        \"phone\": \"7576\",\n        \"dob\": \"2014-12-01T13:32:15.000Z\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4001/api/students/post-student-details",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"students",
+						"post-student-details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4001/api/students/create-posts",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "test1",
+							"type": "text"
+						},
+						{
+							"key": "body",
+							"value": "body-1",
+							"type": "text"
+						},
+						{
+							"key": "student_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/Users/apple/Downloads/WhatsApp Image 2024-10-03 at 4.20.05 PM (1).jpeg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:4001/api/students/create-posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"students",
+						"create-posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4001/api/students/get-posts-with-student/1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:4001/api/students/get-posts-with-student/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"students",
+						"get-posts-with-student",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4001/api/students/get-all-posts",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:4001/api/students/get-all-posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"students",
+						"get-all-posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4001/api/students/login/student",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\":\"ayzal@example.com\",\n    \"password\":\"12345\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4001/api/students/login/student",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"students",
+						"login",
+						"student"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4001/api/students/account/my-profile",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkpRbG1QaFhrdkpTcFg3R2xINDVCZkE9PSIsInZhbHVlIjoicEhyWE5HRWhtNmhZaWRYVXBsazZKUHRsVzUwMXAvc3duQThJR0pZenlCM3NIRWZTcThPUjNmV2gyeWRTT05KcVZqZGFNUVA0MUkvUkxGcnQydVgvcHFPQmo0OWdLeitqVFI4a1FuUTZkcEw1QzdEQWYreG9HUGFESVljak9KQW4iLCJtYWMiOiJjMDQ5YzhkNDlkZDcyMzg5NzIxZWE5ZWMxYzVkMGEyN2JjNTRmMjBjNzE2MTRlNGU0MmZkN2RkNzAzODQ0NDhjIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IjR6dEt4TmhzdWlJa1RPN1grRGJsbkE9PSIsInZhbHVlIjoiOWNGcmxQbnc1SGJtTW94b0ZXaFhQUGZNWjhCQ0x2NzBrOGllWjZqUnJQbnlxR25kenk5WWpTUGxvWmNRdVRONUExMENBL2NTSE5JT1g5R1hENFArMTdONWxHcWkyamFXWCtxRnNCS2tTK05MemRNU3BQMmRJNFVYRTlYRFo4SVQiLCJtYWMiOiJmOTgwYWZlZjcyMGRhNGJkZThjMWE1NjEzNmQwZGI3NWRhZDI2OWE3OWJjYWVmODA1OWI1ZTQ5ZGM1MDYzMGMzIiwidGFnIjoiIn0%3D"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTYsImVtYWlsIjoiYXl6YWxAZXhhbXBsZS5jb20iLCJpYXQiOjE3MzQ5Mzc1MDMsImV4cCI6MTczNDk0MTEwM30.xaqrHKhEjaLBicsVghCstmilUwm8RQoK8O93pNbQfiQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4001/api/students/account/my-profile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"students",
+						"account",
+						"my-profile"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
